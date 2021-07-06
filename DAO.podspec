@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'Realm' do |r|
       r.source_files = 'DAO/Classes/RealmDAO/**/*', 'DAO/Classes/Core/**/*'
-      r.dependency "Realm", '~> 10.1'
-      r.dependency "RealmSwift", '~> 10.1'
+      r.dependency "Realm", '10.7.6'
+      r.dependency "RealmSwift", '10.7.6'
   end
 
   s.subspec 'CoreData' do |cd|
